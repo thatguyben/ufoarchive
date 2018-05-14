@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 7px;
+    margin-left: 8px;
+    
+}
+
+.all {
+    text-align: justify;
+} 
+
+.intro {
+    width: 71%;
+    text-align: justify;
+}
+
+h1 { 
+    font-size: 2em; 
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+h3 { 
+    font-size: 1.3em;
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 3px;
+    margin-left: 15px;
+}
+
+h4 {
+    position: sticky;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: blue;
+    margin-left: 8px;
+}
+
+h5 {
+    font-size: 1.2em;
+    margin-bottom: 7px;
+}
+
+#arrow {
+    position:fixed;
+    margin-top: 30px;
+    bottom: 8px;
+    right: 8px;
+}
+
+li {
+    margin-left: 8px;
+    margin-top: 7px;
+}
+
+h3:hover {
+    cursor: pointer;
+}
+
+h4:hover {
+    cursor: pointer;
+}
+
+ul {
+    max-height: 0;
+    max-width: 0;
+    transition: 600ms;
+    overflow: hidden;
+}
+ul.active {
+    max-height: 100%;
+    max-width: 100%;
+}
